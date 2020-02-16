@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_gradient"
+        android:clipToPadding="false"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/TF_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/TF_subject_name"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/B_subject_color"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_rounded"
+                android:fontFamily="sans-serif"
+                android:onClick="clickB_sub_color"
+                android:padding="10dp"
+                android:text="@string/B_subject_color"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/TF_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/TF_subject_room"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/TF_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/TF_subject_teacher"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/B_subject_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|top"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:onClick="clickB_sub_save"
+                android:text="@string/B_subject_save"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

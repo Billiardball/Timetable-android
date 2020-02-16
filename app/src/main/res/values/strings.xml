@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //App name ----------------------------------------------------------------------
+    <string name="app_name">Timetable</string>
+
+    //Single words ------------------------------------------------------------------
+    <string name="Saved">Saved</string>
+    <string name="Deleted">Deleted</string>
+    <string name="to">to</string>
+    <string name="No">No</string>
+    <string name="OK">OK</string>
+    <string name="Yes">Yes</string>
+    <string name="week">week</string>
+    <string name="Save">Save</string>
+    <string name="Settings">Settings</string>
+    <string name="Subject">Subject</string>
+    <string name="Editing">Editing</string>
+    <string name="Cancel">Cancel</string>
+    <string name="free_period">Free period</string>
+    <string name="different_subject">Different subject</string>
+
+    <string name="number1">1</string>
+    <string name="number2">2</string>
+    <string name="number3">3</string>
+    <string name="number4">4</string>
+    <string name="number5">5</string>
+    <string name="number6">6</string>
+    <string name="number7">7</string>
+    <string name="number8">8</string>
+    <string name="number9">9</string>
+    <string name="number10">10</string>
+    <string name="number11">11</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string-array name="days">
+        <item>@string/placeholder</item>
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+        <item>@string/sunday</item>
+    </string-array>
+
+    //Buttons -------------------------------------------------------------------------------
+    <string name="B_subject_color">Color</string>
+    <string name="B_subject_delete">Delete subject</string>
+    <string name="B_subject_save">Save</string>
+
+    <string name="B_main_dateRight">→</string>
+    <string name="B_main_dateLeft">←</string>
+
+    //Text Views ----------------------------------------------------------------------------
+    <string name="TV_settings_manageDays">Manage these days:</string>
+    <string name="TV_subject_room">Room:</string>
+    <string name="TV_subject_teacher">Teacher:</string>
+
+    //Text Field ----------------------------------------------------------------------------
+    <string name="TF_subject_name">Subject</string>
+    <string name="TF_subject_room">Room (optional)</string>
+    <string name="TF_subject_teacher">Teacher (optional)</string>
+
+    //Switch --------------------------------------------------------------------------------
+    <string name="Switch_settings_weekSystem">Even/odd week system</string>
+    <string name="Switch_settings_showWeek">Show week of year</string>
+    <string name="Switch_settings_darkDesign">Dark design</string>
+
+    //Menu items ----------------------------------------------------------------------------
+    <string name="Menu_aboutApp">About app</string>
+    <string name="Menu_evenWeek">even week</string>
+    <string name="Menu_oddWeek">odd week</string>
+    <string name="Menu_editTable">Edit timetable</string>
+    <string name="Menu_deleteSubject">Delete subject</string>
+    <string name="Menu_editSubject">Edit subject</string>
+
+    //Toasts --------------------------------------------------------------------------------
+    <string name="Toast_nameNeeded">Name missing</string>
+    <string name="Toast_nameAlreadyTaken">Name already taken</string>
+
+    //Dialogs --------------------------------------------------------------------------
+    <string name="D_intro_title">Welcome</string>
+    <string name="D_intro_content">Do you want to use the even/odd week system? \n(2 timetables)</string>
+
+    <string name="D_editEmptyHour_title">Pick a subject</string>
+    <string name="D_editEmptyHour_YES">New subject</string>
+
+    <string name="D_aboutApp_content">Programming: \n- Julius Henke
+                            \n\nDesign: \n- Julius Henke \n- Nicklas Ahlers \n- https://material.io/icons/
+                            \n\n© Julius Henke</string>
+
+    <string name="D_warnManageDays_content">Now your week only consists of 1 day!</string>
+
+    <string name="D_editSubject_title">Pick a subject to edit</string>
+
+    <string name="D_deleteSubject_title">Pick a subject to delete</string>
+
+    <string name="D_editColor_preset">Preset</string>
+    <string name="D_editColor_custom">Custom</string>
+    <string name="D_editColor_preset_title">Pick a color</string>
+
+    //Subject names --------------------------------------------------------------------------
+    <string name="Art">Art</string>
+    <string name="Biology">Biology</string>
+    <string name="Chemistry">Chemistry</string>
+    <string name="English">English</string>
+    <string name="French">French</string>
+    <string name="Geography">Geography</string>
+    <string name="German">German</string>
+    <string name="History">History</string>
+    <string name="Math">Math</string>
+    <string name="Music">Music</string>
+    <string name="Politics">Politics</string>
+    <string name="Religion">Religion</string>
+    <string name="Spanish">Spanish</string>
+    <string name="Sport">Sport</string>
+    <string name="Physics">Physics</string>
+
+
+
+    <string-array name="subject_names">
+        <item>@string/Art</item>
+        <item>@string/Biology</item>
+        <item>@string/Chemistry</item>
+        <item>@string/English</item>
+        <item>@string/French</item>
+        <item>@string/Geography</item>
+        <item>@string/German</item>
+        <item>@string/History</item>
+        <item>@string/Math</item>
+        <item>@string/Music</item>
+        <item>@string/Politics</item>
+        <item>@string/Religion</item>
+        <item>@string/Spanish</item>
+        <item>@string/Sport</item>
+        <item>@string/Physics</item>
+    </string-array>
+
+    //New Values (unsorted) ------------------------------------------------------------------#
+    <string name="placeholder">" "</string>
+    <string name="D_copyEvenDay">Do you want to copy this day of the even week?</string>
+    <string name="D_copyOddDay">Do you want to copy this day of the odd week?</string>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="juliushenke.smarttt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <activity
+            android:name="juliushenke.smarttt.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="juliushenke.smarttt.SettingsActivity"
+            android:label="@string/Settings"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName="juliushenke.smarttt.MainActivity"/>
+        <activity
+            android:name="juliushenke.smarttt.SubjectActivity"
+            android:label="@string/Subject"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName="juliushenke.smarttt.MainActivity"
+            android:windowSoftInputMode="stateHidden"/>
+    </application>
+
+</manifest>
